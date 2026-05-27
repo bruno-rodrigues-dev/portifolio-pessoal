@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Bruno Rodrigues</title>
+    <link rel="stylesheet" href="portifolio.css">
+</head>
+<body>
+
+    <main class="portfolio-container">
+        
+        <section class="left-section">
+            <header class="profile-header">
+                <h1 class="name">Bruno Rodrigues</h1>
+            </header>
+
+            <div class="main-content">
+                <h2 class="title">Análise de Dados &<br>Business Intelligence</h2>
+                <p class="description">
+                    Desenvolvedor de dados focado em engenharia (SQL) e Business Intelligence (BI). 
+                    Especialista em transformar volumes brutos de informação em dashboards visuais e 
+                    insights claros para tomada de decisão.
+                </p>
+            </div>
+
+            <footer class="skills-grid">
+                <div class="skill-item">
+                    <h3>Análise de Dados:</h3>
+                    <p>Exploração e tratamento de dados com SQL (consultas complexas, JOINs, agregações).</p>
+                </div>
+                <div class="skill-item">
+                    <h3>Exibição de Dados:</h3>
+                    <p>Criação de dashboards dinâmicos e intuitivos em Power BI / Looker Studio.</p>
+                </div>
+                <div class="skill-item">
+                    <h3>Resolução de Problemas:</h3>
+                    <p>Tradução de regras de negócio em modelos de dados eficientes.</p>
+                </div>
+            </footer>
+        </section>
+
+        <section class="right-section">
+            
+            <div class="photo-wrapper">
+                <img src="img/./my-photo.png" alt="Foto de Bruno Rodrigues" class="profile-photo">
+            </div>
+
+            <div class="tech-icons">
+                <img src="img/javaIcon.png" alt="Java" class="icon">
+                <img src="img/python.png" alt="Python" class="icon">
+                <img src="img/html.png" alt="HTML5" class="icon">
+                <img src="img/css.png" alt="CSS3" class="icon">
+                <img src="img/mysql.png" alt="MySQL" class="icon">
+            </div>
+            
+        </section>
+    </main>
+
+    <section class="projects-section">
+        <h2 class="section-title">Projetos</h2>
+        
+        <div class="projects-grid">
+            
+            <article class="project-card card-dash-projetos" onclick="scrollToProject('dash-projetos')">
+                <div class="card-content">
+                    <div class="card-text">
+                        <h3>Dash Projetos</h3>
+                        <p>Dashboard de projetos de vendas com gestão completa de orçamentos, acompanhamento de negociações, controle de metas, funil comercial e indicadores estratégicos em tempo real.</p>
+                    </div>
+                    <div class="card-arrow">
+                        <span>&#10140;</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="project-card card-dash-farmacia" onclick="scrollToProject('dash-farmacia')">
+                <div class="card-content">
+                    <div class="card-text">
+                        <h3>Dash Farmácia</h3>
+                        <p>Dashboard de farmácia com gestão de vendas, estoque, metas e indicadores estratégicos em tempo real.</p>
+                    </div>
+                    <div class="card-arrow">
+                        <span>&#10140;</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="project-card card-sites-canva" onclick="scrollToProject('sites-canva')">
+                <div class="card-content">
+                    <div class="card-text">
+                        <h3>Sites em Canva</h3>
+                        <p>Sites criados no Canva com design moderno, visual profissional e foco em praticidade e resultados.</p>
+                    </div>
+                    <div class="card-arrow">
+                        <span>&#10140;</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="project-card card-commercia" onclick="scrollToProject('commercia')">
+                <div class="card-content">
+                    <div class="card-text">
+                        <h3>Commercia</h3>
+                        <p>Plataforma de compras e vendas com gestão inteligente, praticidade e negociações em tempo real.</p>
+                    </div>
+                    <div class="card-arrow">
+                        <span>&#10140;</span>
+                    </div>
+                </div>
+            </article>
+
+        </div>
+    </section>
+
+    <section class="project-detail" id="dash-projetos">
+        <div class="detail-inner">
+            <div class="detail-content">
+                <div class="detail-text">
+                    <h2 class="detail-title">Dash <span class="accent">Projetos</span></h2>
+                    <p class="detail-description">
+                        Um dashboard completo para gestão comercial de projetos de vendas. Desenvolvido para equipes que precisam de visibilidade total sobre o pipeline de negócios — do primeiro contato até o fechamento do contrato.
+                    </p>
+                    <ul class="detail-features">
+                        <li>
+                            <span class="feat-icon">◈</span>
+                            <span><strong>Funil Comercial:</strong> Visualização de cada etapa da negociação com taxa de conversão por fase.</span>
+                        </li>
+                        <li>
+                            <span class="feat-icon">◈</span>
+                            <span><strong>Gestão de Orçamentos:</strong> Controle de propostas enviadas, aprovadas e perdidas com valores consolidados.</span>
+                        </li>
+                        <li>
+                            <span class="feat-icon">◈</span>
+                            <span><strong>Metas & KPIs:</strong> Acompanhamento em tempo real do progresso individual e da equipe frente às metas mensais.</span>
+                        </li>
+                        <li>
+                            <span class="feat-icon">◈</span>
+                            <span><strong>Indicadores Estratégicos:</strong> Ticket médio, ciclo de vendas, taxa de churn e projeção de receita.</span>
+                        </li>
+                    </ul>
+                    <div class="detail-stack">
+                        <span class="stack-tag">Power BI</span>
+                        <span class="stack-tag">SQL</span>
+                        <span class="stack-tag">DAX</span>
+                    </div>
+                </div>
+                <div class="detail-media">
+                    <div class="screen-frame">
+                        <div class="screen-bar">
+                            <span class="dot red"></span>
+                            <span class="dot yellow"></span>
+                            <span class="dot green"></span>
+                        </div>
+
+                        <img src="img/apre.proj.gif" alt="Dash Projetos" class="screen-gif">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="project-detail detail-alt" id="dash-farmacia">
+        <div class="detail-inner">
+            <div class="detail-content detail-content-reverse">
+                <div class="detail-media">
+                    <div class="screen-frame">
+                        <div class="screen-bar">
+                            <span class="dot red"></span>
+                            <span class="dot yellow"></span>
+                            <span class="dot green"></span>
+                        </div>
+
+                        <img src="img/apre.farma.gif" alt="Dash Farmácia" class="screen-gif">
+                    </div>
+                </div>
+                <div class="detail-text">
+                    <h2 class="detail-title">Dash <span class="accent">Farmácia</span></h2>
+                    <p class="detail-description">
+                        Dashboard operacional desenvolvido para redes de farmácia, unificando dados de vendas, estoque e desempenho em uma única tela. Permite gestores tomarem decisões rápidas com base em dados atualizados.
+                    </p>
+                    <ul class="detail-features">
+                        <li>
+                            <span class="feat-icon">◈</span>
+                            <span><strong>Vendas em Tempo Real:</strong> Faturamento diário, semanal e mensal com comparativo de períodos anteriores.</span>
+                        </li>
+                        <li>
+                            <span class="feat-icon">◈</span>
+                            <span><strong>Controle de Estoque:</strong> Alertas de produtos críticos, validade e giro de estoque por categoria.</span>
+                        </li>
+                        <li>
+                            <span class="feat-icon">◈</span>
+                            <span><strong>Metas de Vendas:</strong> Acompanhamento individual por colaborador e por filial com ranking dinâmico.</span>
+                        </li>
+                        <li>
+                            <span class="feat-icon">◈</span>
+                            <span><strong>Produtos Mais Vendidos:</strong> Ranking de itens com maior receita e margem de contribuição.</span>
+                        </li>
+                    </ul>
+                    <div class="detail-stack">
+                        <span class="stack-tag">Power BI</span>
+                        <span class="stack-tag">SQL</span>
+                        <span class="stack-tag">DAX</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="project-detail" id="sites-canva">
+        <div class="detail-inner">
+            <div class="detail-content">
+                <div class="detail-text">
+                    <h2 class="detail-title">Sites em <span class="accent">Canva</span></h2>
+                    <p class="detail-description">
+                        Criação de sites profissionais utilizando o Canva como plataforma de design e publicação. Uma solução ágil e visualmente impactante para clientes que precisam de presença digital rápida com alto padrão estético.
+                    </p>
+                    <ul class="detail-features">
+                        <li>
+                            <span class="feat-icon">◈</span>
+                            <span><strong>Design Moderno:</strong> Layouts únicos, tipografia cuidadosa e paleta de cores alinhada à identidade da marca.</span>
+                        </li>
+                        <li>
+                            <span class="feat-icon">◈</span>
+                            <span><strong>Responsivo:</strong> Adaptação automática para desktop, tablet e mobile sem comprometer o visual.</span>
+                        </li>
+                        <li>
+                            <span class="feat-icon">◈</span>
+                            <span><strong>Entrega Rápida:</strong> Do briefing à publicação em poucos dias, ideal para lançamentos e campanhas.</span>
+                        </li>
+                        <li>
+                            <span class="feat-icon">◈</span>
+                            <span><strong>Foco em Resultados:</strong> Estrutura de página orientada à conversão — CTAs estratégicos e hierarquia visual clara.</span>
+                        </li>
+                    </ul>
+                    <div class="detail-stack">
+                        <span class="stack-tag">Canva</span>
+                        <span class="stack-tag">UI Design</span>
+                        <span class="stack-tag">Web</span>
+                    </div>
+                </div>
+                <div class="detail-media">
+                    <div class="screen-frame">
+                        <div class="screen-bar">
+                            <span class="dot red"></span>
+                            <span class="dot yellow"></span>
+                            <span class="dot green"></span>
+                        </div>
+
+                        <img src="img/canva.pag.png" alt="Sites Canva" class="screen-gif">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="project-detail detail-alt" id="commercia">
+        <div class="detail-inner">
+            <div class="detail-content detail-content-reverse">
+                <div class="detail-media">
+                    <div class="screen-frame">
+                        <div class="screen-bar">
+                            <span class="dot red"></span>
+                            <span class="dot yellow"></span>
+                            <span class="dot green"></span>
+                        </div>
+
+                        <img src="img/apre.canva.gif" alt="Commercia" class="screen-gif">
+                    </div>
+                </div>
+                <div class="detail-text">
+                    <h2 class="detail-title"><span class="accent">Commercia</span></h2>
+                    <p class="detail-description">
+                        Plataforma completa de compras e vendas com gestão inteligente de produtos, estoque e negociações. Desenvolvida para facilitar o dia a dia de vendedores e compradores com uma interface ágil e dados em tempo real.
+                    </p>
+                    <ul class="detail-features">
+                        <li>
+                            <span class="feat-icon">◈</span>
+                            <span><strong>Gestão de Produtos:</strong> Cadastro, categorização e controle de estoque integrados em um só lugar.</span>
+                        </li>
+                        <li>
+                            <span class="feat-icon">◈</span>
+                            <span><strong>Negociações em Tempo Real:</strong> Sistema de propostas e contra-propostas com histórico de conversas.</span>
+                        </li>
+                        <li>
+                            <span class="feat-icon">◈</span>
+                            <span><strong>Painel do Vendedor:</strong> Visão completa de pedidos, receita, avaliações e desempenho na plataforma.</span>
+                        </li>
+                        <li>
+                            <span class="feat-icon">◈</span>
+                            <span><strong>Interface Intuitiva:</strong> UX pensada para reduzir fricção e acelerar o ciclo de compra e venda.</span>
+                        </li>
+                    </ul>
+                    <div class="detail-stack">
+                        <span class="stack-tag">Java</span>
+                        <span class="stack-tag">MySQL</span>
+                        <span class="stack-tag">HTML/CSS</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <div class="footer-name">Bruno Rodrigues</div>
+            <p class="footer-tagline">Dados que contam histórias. Dashboards que geram decisões.</p>
+
+            <div class="footer-links">
+
+                <a href="www.linkedin.com/in/bruno-rodrigues-7b0a392bb" target="_blank" rel="noopener noreferrer" class="footer-icon-link" aria-label="LinkedIn">
+                    <div class="footer-icon-wrapper">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="24" height="24">
+                            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                        </svg>
+                        <span>LinkedIn</span>
+                    </div>
+                </a>
+
+                <a href="https://github.com/bruno-rodrigues-dev" target="_blank" rel="noopener noreferrer" class="footer-icon-link" aria-label="GitHub">
+                    <div class="footer-icon-wrapper">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="24" height="24">
+                            <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
+                        </svg>
+                        <span>GitHub</span>
+                    </div>
+                </a>
+
+                <a href="mailto:bruno0603santos@gmail.com" class="footer-icon-link" aria-label="E-mail">
+                    <div class="footer-icon-wrapper">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="24" height="24">
+                            <rect x="2" y="4" width="20" height="16" rx="2"/>
+                            <polyline points="2,4 12,13 22,4"/>
+                        </svg>
+                        <span>E-mail</span>
+                    </div>
+                </a>
+
+            </div>
+
+            <div class="footer-bottom">
+                <span>© 2025 Bruno Rodrigues — Todos os direitos reservados</span>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function scrollToProject(id) {
+            const el = document.getElementById(id);
+            if (el) {
+                el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
+        }
+    </script>
+
+</body>
+</html>
